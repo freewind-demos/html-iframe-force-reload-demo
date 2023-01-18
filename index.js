@@ -1,4 +1,6 @@
-const main = document.getElementById('main');
-main.onload = () => {
-  document.getElementById('message').innerHTML += '<div>iframe is loaded</div>';
-};
+const iframe = document.getElementById('iframe');
+const reloadButton = document.getElementById('reload');
+
+reloadButton.addEventListener('click', () => {
+    iframe.src = iframe.src;
+})

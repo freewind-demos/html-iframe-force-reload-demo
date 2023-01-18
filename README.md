@@ -1,6 +1,7 @@
-Html IFrame onload Demo
+Html IFrame force reload Demo
 =======================
 
 ```
-open index.html
+npm i
+npm start
 ```
